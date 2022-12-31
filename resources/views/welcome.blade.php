@@ -7,10 +7,12 @@
     <div class="hero-content">
         <div class="col-md-4 hero-text">
             <h3>
-                Welcome to the site Welcome to the site
+                Welcome to the GoodnessGYM website
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda. Culpa, libero.</p>
-            <button class="btn custom-border my-2 my-sm-0">Shop</button>
+            <p>We make it easy to to buy, own, and maintain GoodnessGym equipments.</p>
+            <a href="{{ route('shop.index') }}">
+                <button class="btn custom-border my-2 my-sm-0">Shop</button>
+            </a> 
             <button class="btn custom-border my-2 my-sm-0">Contact Us</button>
         </div>
     </div>
@@ -19,8 +21,8 @@
 <!-- start page content -->
 <div class="container">
     <div class="content-head">
-        <h2 style="text-align:center; font-weight: bold">Ecommerce</h2>
-        <p style="text-align: center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusamus eos quibusdam, esse voluptates voluptatibus id corporis facere neque amet alias molestias itaque ex porro architecto blanditiis distinctio maxime laboriosam.</h2>
+        <h2 style="text-align:center; font-weight: bold">GoodnessGYM</h2>
+        <p style="text-align: center">We make it easy to to buy, own, and maintain GoodnessGym equipments. Our expert support team is always available to answer any questions or concerns you have, so you can spend less time worrying about your equipments and more time reaching your fitness goals.</h2>
     </div>
     <h2 class="header text-center">Featured Products</h2>
     <!-- start products row -->
@@ -32,7 +34,7 @@
                     <div class="card view overlay zoom">
                         <img src="{{ productImage($product->image) }}" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $product->name }}<span class="float-right">$ {{ format($product->price) }}</span></h5>
+                            <h5 class="card-title">{{ $product->name }}<span class="float-right">RM {{ format($product->price) }}</span></h5>
                             {{-- <div class="product-actions" style="display: flex; align-items: center; justify-content: center">
                                 <a class="cart" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fas fa-cart-plus"></i></a>
                                 <a class="like" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fa fa-thumbs-up"></i></a>
@@ -62,7 +64,7 @@
                     <div class="card view overlay zoom">
                         <img src="{{ productImage($product->image) }}" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $product->name }}<span class="float-right">$ {{ format($product->price) }}</span></h5>
+                            <h5 class="card-title">{{ $product->name }}<span class="float-right">RM {{ format($product->price) }}</span></h5>
                             {{-- <div class="product-actions" style="display: flex; align-items: center; justify-content: center">
                                 <a class="cart" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fas fa-cart-plus"></i></a>
                                 <a class="like" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fa fa-thumbs-up"></i></a>

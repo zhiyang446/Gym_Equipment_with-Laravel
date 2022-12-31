@@ -47,7 +47,7 @@
                                     @endfor
                                 </select>
                             </td>
-                            <td>${{ format($item->subtotal) }}</td>
+                            <td>RM{{ format($item->subtotal) }}</td>
                         </tr>
                     @endforeach
                 </tbody>
@@ -57,13 +57,13 @@
                 <div class="row">
                     <div class="col-md-8">
                         <p class="light-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laborum perspiciatis ullam, aliquam eius deserunt iusto autem. Cumque omnis, architecto nostrum voluptatum quis temporibus alias suscipit quod reprehenderit. Quis, esse.
+                            
                         </p>
                     </div>
                     <div class="col-md-3 offset-md-1">
-                        <p class="text-right light-text">Subtotal &nbsp; &nbsp;${{ format(Cart::subtotal()) }}</p>
-                        <p class="text-right light-text">Tax(21%) &nbsp; &nbsp; ${{ format(Cart::tax()) }}</p>
-                        <p class="text-right">Total &nbsp; &nbsp; ${{ format(Cart::total()) }}</p>
+                        <p class="text-right light-text">Subtotal &nbsp; &nbsp;RM{{ format(Cart::subtotal()) }}</p>
+                        <p class="text-right light-text">Tax(21%) &nbsp; &nbsp; RM{{ format(Cart::tax()) }}</p>
+                        <p class="text-right">Total &nbsp; &nbsp; RM{{ format(Cart::total()) }}</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                                         Add to cart
                                     </button>
                                 </td>
-                                <td>${{ format($item->model->price) }}</td>
+                                <td>RM{{ format($item->model->price) }}</td>
                             </tr>
                         @endforeach
                     </tbody>

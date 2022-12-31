@@ -23,7 +23,7 @@
                 @foreach ($products as $product)
                     <tr>
                         <th><a href="{{ route('shop.show', $product->slug) }}" class="text-decoration-none">{{ $product->name }}</a></th>
-                        <td>${{ format($product->price) }}</td>
+                        <td>RM{{ format($product->price) }}</td>
                         <td>{{ $product->details }}</td>
                         <td>{{ str_limit($product->description, 70) }}</td>
                         <td><img src="{{ productImage($product->image) }}" width="70" height="70"></td>

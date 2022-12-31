@@ -21,7 +21,7 @@
         "nicolaslopezj/searchable": "^1.12",
         "predis/predis": "^1.1",
         "rap2hpoutre/laravel-log-viewer": "^1.7",
-        "tcg/voyager": "^1.3",
+        "tcg/voyager": "^1.6",
         "torann/geoip": "^3.0"
     },
     "require-dev": {

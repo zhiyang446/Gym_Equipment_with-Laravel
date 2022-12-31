@@ -8,23 +8,20 @@
                 </div>
                 <div class="col-md-4">
                     <h3>
-                        Welcome to the site
+                        Welcome to the GoodnessGYM Website
                     </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda. Culpa, libero.</p>
+                    <p>We make it easy to to buy, own, and maintain GoodnessGym equipments.</p>
                 </div>
                 <div class="col-md-4">
                     <h3>
                         Contact:
                     </h3>
-                    <p>Phone: +249126545060</p>
-                    <p>Email: mohammedomer789@gmail.com</p>
-                    <p>Website: <a href="https://mhmdomer.com">Personal Website</a></p>
-                    <p>Github: <a href="https://github.com/mhmdomer">@mhmdomer</a></p>
-                    <p>Twitter: <a href="https://twitter.com/mhmdomer_">@mhmdomer_</a></p>
-                    <p>LinkedIn: <a href="https://linkedin.com/in/mohammed-omer-ali">Mohammed Omer</a></p>
+                    <p>Phone: +60102354999</p>
+                    <p>Email: zhiyang@gmail.com</p>
+                    <p>Github: <a href="https://github.com/zhiyang446">@zhiyang</a></p>
                 </div>
             </div>
         </div>
-        <p>copyright &copy; Mohammed Omer Ali - All rights reserved 2019</p>
+        <p>copyright &copy;All rights reserved 2022</p>
     </div>
 </footer>
