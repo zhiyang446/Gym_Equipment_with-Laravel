@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
+    <title>GoodnessGYM | @yield('title')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
